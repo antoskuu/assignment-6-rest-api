@@ -1,0 +1,39 @@
+{
+  "categories": [
+    {
+      "id": "menus",
+      "title": "Menus",
+      "image": "menu.png",
+      "items": [
+        { "id": 1, "title": "Beef Menu", "image": "menu.png" },
+        { "id": 2, "title": "Spicy Chicken Menu", "image": "menu.png" },
+        { "id": 3, "title": "BBQ Beef menu", "image": "menu.png" }
+      ]
+    },
+    {
+      "id": "burgers",
+      "title": "Burgers",
+      "image": "beefburger.png",
+      "items": [
+        { "id": 1, "title": "Classic Beef", "meat": "beef", "image": "beefburger.png" },
+        { "id": 2, "title": "Cheese Beef", "meat": "beef", "image": "beefburger.png" },
+        { "id": 3, "title": "BBQ Beef", "meat": "beef", "image": "beefburger.png" },
+        { "id": 4, "title": "Crispy Chicken", "meat": "chicken", "image": "burger2.png" },
+        { "id": 5, "title": "Spicy Chicken", "meat": "chicken", "image": "burger2.png" },
+        { "id": 6, "title": "Teriyaki Chicken", "meat": "chicken", "image": "burger2.png" },
+        { "id": 7, "title": "Mayo Chicken", "meat": "chicken", "image": "burger2.png" }
+      ]
+    },
+    {
+      "id": "drinks",
+      "title": "Drinks",
+      "image": "drink.png",
+      "items": [
+        { "id": 1, "title": "Coke", "image": "drink.png" },
+        { "id": 2, "title": "Coke Zero", "image": "drink.png" },
+        { "id": 3, "title": "Solo", "image": "solo.png" },
+        { "id": 4, "title": "Ice Tea", "image": "icetea.png" }
+      ]
+    }
+  ]
+}
