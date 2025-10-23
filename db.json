@@ -5,9 +5,21 @@
       "title": "Menus",
       "image": "menu.png",
       "items": [
-        { "id": 1, "title": "Beef Menu", "image": "menu.png" },
-        { "id": 2, "title": "Spicy Chicken Menu", "image": "menu.png" },
-        { "id": 3, "title": "BBQ Beef menu", "image": "menu.png" }
+        {
+          "id": 1,
+          "title": "Beef Menu",
+          "image": "menu.png"
+        },
+        {
+          "id": 2,
+          "title": "Spicy Chicken Menu",
+          "image": "menu.png"
+        },
+        {
+          "id": 3,
+          "title": "BBQ Beef menu",
+          "image": "menu.png"
+        }
       ]
     },
     {
@@ -15,13 +27,48 @@
       "title": "Burgers",
       "image": "beefburger.png",
       "items": [
-        { "id": 1, "title": "Classic Beef", "meat": "beef", "image": "beefburger.png" },
-        { "id": 2, "title": "Cheese Beef", "meat": "beef", "image": "beefburger.png" },
-        { "id": 3, "title": "BBQ Beef", "meat": "beef", "image": "beefburger.png" },
-        { "id": 4, "title": "Crispy Chicken", "meat": "chicken", "image": "burger2.png" },
-        { "id": 5, "title": "Spicy Chicken", "meat": "chicken", "image": "burger2.png" },
-        { "id": 6, "title": "Teriyaki Chicken", "meat": "chicken", "image": "burger2.png" },
-        { "id": 7, "title": "Mayo Chicken", "meat": "chicken", "image": "burger2.png" }
+        {
+          "id": 4,
+          "title": "Classic Beef",
+          "meat": "beef",
+          "image": "beefburger.png"
+        },
+        {
+          "id": 5,
+          "title": "Cheese Beef",
+          "meat": "beef",
+          "image": "beefburger.png"
+        },
+        {
+          "id": 6,
+          "title": "BBQ Beef",
+          "meat": "beef",
+          "image": "beefburger.png"
+        },
+        {
+          "id": 7,
+          "title": "Crispy Chicken",
+          "meat": "chicken",
+          "image": "burger2.png"
+        },
+        {
+          "id": 8,
+          "title": "Spicy Chicken",
+          "meat": "chicken",
+          "image": "burger2.png"
+        },
+        {
+          "id": 9,
+          "title": "Teriyaki Chicken",
+          "meat": "chicken",
+          "image": "burger2.png"
+        },
+        {
+          "id": 10,
+          "title": "Mayo Chicken",
+          "meat": "chicken",
+          "image": "burger2.png"
+        }
       ]
     },
     {
@@ -29,11 +76,63 @@
       "title": "Drinks",
       "image": "drink.png",
       "items": [
-        { "id": 1, "title": "Coke", "image": "drink.png" },
-        { "id": 2, "title": "Coke Zero", "image": "drink.png" },
-        { "id": 3, "title": "Solo", "image": "solo.png" },
-        { "id": 4, "title": "Ice Tea", "image": "icetea.png" }
+        {
+          "id": 11,
+          "title": "Coke",
+          "image": "drink.png"
+        },
+        {
+          "id": 12,
+          "title": "Coke Zero",
+          "image": "drink.png"
+        },
+        {
+          "id": 13,
+          "title": "Solo",
+          "image": "solo.png"
+        },
+        {
+          "id": 14,
+          "title": "Ice Tea",
+          "image": "icetea.png"
+        }
       ]
     }
-  ]
+  ],
+  "users": {
+    "fe3041cc-98bf-4422-9e45-1cd80aedf0a7": {
+      "cart": [
+        {
+          "id": "14",
+          "title": "Ice Tea"
+        },
+        {
+          "id": "13",
+          "title": "Solo"
+        },
+        {
+          "id": "13",
+          "title": "Solo"
+        },
+        {
+          "id": "1",
+          "title": "Beef Menu"
+        },
+        {
+          "id": "2",
+          "title": "Spicy Chicken Menu"
+        },
+        {
+          "id": "3",
+          "title": "BBQ Beef menu"
+        }
+      ]
+    },
+    "null": {
+      "cart": []
+    },
+    "null": {
+      "cart": []
+    }
+  }
 }

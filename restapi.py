@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Header, HTTPException
 from fastapi.responses import FileResponse
 from pathlib import Path
 import json
@@ -14,6 +14,9 @@ def read_db():
     with open(DB_PATH, "r") as f:
         return json.load(f)
 
+def write_db(data):
+    with open(DB_PATH, "w") as f:
+        json.dump(data, f, indent=2)
 
 @app.get("/categories")
 def get_categories():
@@ -27,3 +30,31 @@ def get_image(image_name: str):
     if not file_path.exists():
         return {"error": "Image not found"}
     return FileResponse(file_path)
+
+
+@app.get("/cart")
+async def get_cart(user_id):
+    db = read_db()
+    users = db.get("users", {})
+    if user_id not in users:
+        users[user_id] = {"cart": []}
+        db["users"] = users
+        write_db(db)
+    print(users[user_id].get("cart", []))
+    return users[user_id].get("cart", [])
+
+
+@app.post("/cart")
+async def add_to_cart(id, title, user_id):
+    db = read_db()
+    users = db.get("users", {})
+    if user_id not in users:
+        users[user_id] = {"cart": []}
+        db["users"] = users
+        write_db(db)
+    cart = users[user_id]["cart"]
+    cart.append({"id": id, "title": title})
+    db["users"] = users
+
+    write_db(db)
+    return {"message": "Item added", "cart": cart}
