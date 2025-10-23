@@ -103,36 +103,22 @@
     "fe3041cc-98bf-4422-9e45-1cd80aedf0a7": {
       "cart": [
         {
-          "id": "14",
-          "title": "Ice Tea"
+          "id": 11,
+          "title": "Coke"
         },
         {
-          "id": "13",
-          "title": "Solo"
+          "id": 5,
+          "title": "Cheese Beef"
         },
         {
-          "id": "13",
-          "title": "Solo"
+          "id": 7,
+          "title": "Crispy Chicken"
         },
         {
-          "id": "1",
-          "title": "Beef Menu"
-        },
-        {
-          "id": "2",
-          "title": "Spicy Chicken Menu"
-        },
-        {
-          "id": "3",
-          "title": "BBQ Beef menu"
+          "id": 7,
+          "title": "Crispy Chicken"
         }
       ]
-    },
-    "null": {
-      "cart": []
-    },
-    "null": {
-      "cart": []
     }
   }
 }
