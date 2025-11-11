@@ -1,104 +1,4 @@
 {
-  "categories": [
-    {
-      "id": "menus",
-      "title": "Menus",
-      "image": "menu.png",
-      "items": [
-        {
-          "id": 1,
-          "title": "Beef Menu",
-          "image": "menu.png"
-        },
-        {
-          "id": 2,
-          "title": "Spicy Chicken Menu",
-          "image": "menu.png"
-        },
-        {
-          "id": 3,
-          "title": "BBQ Beef menu",
-          "image": "menu.png"
-        }
-      ]
-    },
-    {
-      "id": "burgers",
-      "title": "Burgers",
-      "image": "beefburger.png",
-      "items": [
-        {
-          "id": 4,
-          "title": "Classic Beef",
-          "meat": "beef",
-          "image": "beefburger.png"
-        },
-        {
-          "id": 5,
-          "title": "Cheese Beef",
-          "meat": "beef",
-          "image": "beefburger.png"
-        },
-        {
-          "id": 6,
-          "title": "BBQ Beef",
-          "meat": "beef",
-          "image": "beefburger.png"
-        },
-        {
-          "id": 7,
-          "title": "Crispy Chicken",
-          "meat": "chicken",
-          "image": "burger2.png"
-        },
-        {
-          "id": 8,
-          "title": "Spicy Chicken",
-          "meat": "chicken",
-          "image": "burger2.png"
-        },
-        {
-          "id": 9,
-          "title": "Teriyaki Chicken",
-          "meat": "chicken",
-          "image": "burger2.png"
-        },
-        {
-          "id": 10,
-          "title": "Mayo Chicken",
-          "meat": "chicken",
-          "image": "burger2.png"
-        }
-      ]
-    },
-    {
-      "id": "drinks",
-      "title": "Drinks",
-      "image": "drink.png",
-      "items": [
-        {
-          "id": 11,
-          "title": "Coke",
-          "image": "drink.png"
-        },
-        {
-          "id": 12,
-          "title": "Coke Zero",
-          "image": "drink.png"
-        },
-        {
-          "id": 13,
-          "title": "Solo",
-          "image": "solo.png"
-        },
-        {
-          "id": 14,
-          "title": "Ice Tea",
-          "image": "icetea.png"
-        }
-      ]
-    }
-  ],
   "users": {
     "123": {
       "memories": [
@@ -120,155 +20,82 @@
           "image_filename": "b8fd14ec-c84c-4667-9a1e-585a92b0b26f.png",
           "image_url": "/uploads/b8fd14ec-c84c-4667-9a1e-585a92b0b26f.png"
         }
-      ]
+      ],
+      "tags": [
+        {"tag": "test"}
+       ]
     },
     "efd31ff9-9b50-4950-a605-873afbaadc86": {
       "memories": [
         {
-          "id": "25fd02f5-c429-4820-8cfb-498dbae4e70d",
-          "title": "hihihi",
-          "image_filename": "7eab7041-88cb-482e-af93-3a8864daeb27.jpg",
-          "image_url": "/uploads/7eab7041-88cb-482e-af93-3a8864daeb27.jpg"
+          "id": "8350c5a1-6c72-486c-bcda-cc04f1a3375a",
+          "title": "undefined",
+          "image_filename": "df687c8e-09ca-4868-9418-248baed6dd45.jpg",
+          "image_url": "/uploads/df687c8e-09ca-4868-9418-248baed6dd45.jpg",
+          "location": "[37.421998333333335,-122.084]"
         },
         {
-          "id": "cd18ecfa-aed6-4649-8564-624581346d82",
-          "title": "TITRE",
-          "image_filename": "576656ac-1c84-4db0-833b-0e8cc3cd01a7.jpg",
-          "image_url": "/uploads/576656ac-1c84-4db0-833b-0e8cc3cd01a7.jpg"
+          "id": "1344cb4c-2dba-4f76-ace5-bad9e31811c3",
+          "title": "undefined",
+          "image_filename": "7968b102-5070-47c0-a3f2-0e87f8dfbc64.jpg",
+          "image_url": "/uploads/7968b102-5070-47c0-a3f2-0e87f8dfbc64.jpg",
+          "location": "\"{\\\"speed\\\":0,\\\"heading\\\":0,\\\"altitude\\\":5,\\\"accuracy\\\":5,\\\"longitude\\\":-122.084,\\\"latitude\\\":37.421998333333335}\""
         },
         {
-          "id": "2f3f71ef-1dc1-472c-82b3-eba8ee811554",
-          "title": "hdsvqd",
-          "image_filename": "b4cdba51-7e7f-4776-bec6-807604935b70.jpg",
-          "image_url": "/uploads/b4cdba51-7e7f-4776-bec6-807604935b70.jpg"
+          "id": "65467876-69ff-4232-9484-cde17ca774be",
+          "title": "undefined",
+          "image_filename": "2bd957ca-28d7-4bea-bb38-88c114163d91.jpg",
+          "image_url": "/uploads/2bd957ca-28d7-4bea-bb38-88c114163d91.jpg",
+          "location": ""
         },
         {
-          "id": "08c2b0b2-40bc-4e81-90bb-9d98bc56fcb0",
-          "title": "hdsvqd",
-          "image_filename": "1e6ac8e1-2891-4145-805b-568bb3a17b08.jpg",
-          "image_url": "/uploads/1e6ac8e1-2891-4145-805b-568bb3a17b08.jpg"
+          "id": "c9eab2e8-c83a-45bf-87d9-e8ce223668c6",
+          "title": "undefined",
+          "image_filename": "95acc492-6ac8-420f-b62f-fdafaac219d9.jpg",
+          "image_url": "/uploads/95acc492-6ac8-420f-b62f-fdafaac219d9.jpg",
+          "location": "{\"speed\":0,\"heading\":0,\"altitude\":5,\"accuracy\":5,\"longitude\":-122.084,\"latitude\":37.421998333333335}"
         },
         {
-          "id": "dbb7cf96-ac87-4619-bffe-3d7400034068",
-          "title": "hdsvqd",
-          "image_filename": "2b5da496-d486-4722-ac8b-854139658947.jpg",
-          "image_url": "/uploads/2b5da496-d486-4722-ac8b-854139658947.jpg"
+          "id": "ae6887e6-39e5-4f65-b6cc-e354dd7c5eb1",
+          "title": "undefined",
+          "image_filename": "3f7a41ad-a455-4b7f-846c-07c8eecd3f3d.jpg",
+          "image_url": "/uploads/3f7a41ad-a455-4b7f-846c-07c8eecd3f3d.jpg",
+          "location": ""
         },
         {
-          "id": "2e84e7f2-46a7-452f-94d2-c4865d161d92",
-          "title": "hdsvqd",
-          "image_filename": "93e9bf5e-fa10-4272-8a78-abf3a54fab29.jpg",
-          "image_url": "/uploads/93e9bf5e-fa10-4272-8a78-abf3a54fab29.jpg"
+          "id": "bdcea977-210a-4fc5-a4f1-b2f7fef0223c",
+          "title": "undefined",
+          "image_filename": "e0de7abd-1420-4f94-b191-743d162b78db.jpg",
+          "image_url": "/uploads/e0de7abd-1420-4f94-b191-743d162b78db.jpg"
         },
         {
-          "id": "42c1262a-61c6-4439-b92e-874d667899bd",
-          "title": "hdsvqd",
-          "image_filename": "b6d0c5e1-d696-4f99-ada5-2689d50914b7.jpg",
-          "image_url": "/uploads/b6d0c5e1-d696-4f99-ada5-2689d50914b7.jpg"
+          "id": "bb445624-c847-46e9-be8e-f83b352a200c",
+          "title": "erko is ugly",
+          "image_filename": "b990a076-b58e-47f7-b075-25071dfa03dc.jpg",
+          "image_url": "/uploads/b990a076-b58e-47f7-b075-25071dfa03dc.jpg"
         },
         {
-          "id": "4b8d8d25-4cf4-4347-a7a9-8bc67ac5f7cb",
-          "title": "hdsvqd",
-          "image_filename": "5eced0a4-37dc-4d8b-8f81-aab897c30867.jpg",
-          "image_url": "/uploads/5eced0a4-37dc-4d8b-8f81-aab897c30867.jpg"
+          "id": "1858a9f2-c2d4-46a2-971c-1bccbecfa9cb",
+          "title": "erko is ugly",
+          "image_filename": "dcc2f8c0-8531-4ef6-bd09-644784a29211.jpg",
+          "image_url": "/uploads/dcc2f8c0-8531-4ef6-bd09-644784a29211.jpg"
         },
         {
-          "id": "2a6311fb-ec9a-492a-8ec2-90723b7f94bd",
-          "title": "hdsvqd",
-          "image_filename": "2a302fb8-a85a-444a-b9ab-998d54dad22c.jpg",
-          "image_url": "/uploads/2a302fb8-a85a-444a-b9ab-998d54dad22c.jpg"
+          "id": "bfe23f91-eb74-4a36-91a5-cd07fff03006",
+          "title": "Petit selfie de test",
+          "image_filename": "c1de0c22-1a29-421a-9032-79924f24e883.jpg",
+          "image_url": "/uploads/c1de0c22-1a29-421a-9032-79924f24e883.jpg"
         },
         {
-          "id": "290782cf-7b68-48b2-bc58-71a7e63ca9c1",
-          "title": "hdsvqd",
-          "image_filename": "fcc1b5ec-6356-4559-a92c-91f87650732d.jpg",
-          "image_url": "/uploads/fcc1b5ec-6356-4559-a92c-91f87650732d.jpg"
-        },
-        {
-          "id": "2ed48ae7-9c27-458b-b72e-2092c9579202",
-          "title": "hdsvqd",
-          "image_filename": "05223279-1dc7-4272-a037-dedc7980f448.jpg",
-          "image_url": "/uploads/05223279-1dc7-4272-a037-dedc7980f448.jpg"
-        },
-        {
-          "id": "d699e5e8-33fd-4608-b8e8-56857a96a10e",
-          "title": "hdsvqd",
-          "image_filename": "aba619e0-269a-4c27-903c-f72fb32cc757.jpg",
-          "image_url": "/uploads/aba619e0-269a-4c27-903c-f72fb32cc757.jpg"
-        },
-        {
-          "id": "39f70e0a-5622-44ec-94ec-ac09617d0236",
-          "title": "hdsvqd",
-          "image_filename": "6f4fcea0-b06a-44b9-ae97-b79af4506ff3.jpg",
-          "image_url": "/uploads/6f4fcea0-b06a-44b9-ae97-b79af4506ff3.jpg"
-        },
-        {
-          "id": "c49faef2-0890-4001-9173-b08db5da23c0",
-          "title": "hdsvqd",
-          "image_filename": "6f210a70-490a-446d-b7d5-70588664beb2.jpg",
-          "image_url": "/uploads/6f210a70-490a-446d-b7d5-70588664beb2.jpg"
-        },
-        {
-          "id": "bfb7ae81-4b2a-4b97-bf3c-7be1ce097901",
-          "title": "hdsvqd",
-          "image_filename": "16eea452-294f-4817-a39a-c45d635ae114.jpg",
-          "image_url": "/uploads/16eea452-294f-4817-a39a-c45d635ae114.jpg"
-        },
-        {
-          "id": "acf31f80-889b-44d6-842d-c806c35eaffd",
-          "title": "hdsvqd",
-          "image_filename": "61303eaa-711a-4bea-b7f9-48050f5b729f.jpg",
-          "image_url": "/uploads/61303eaa-711a-4bea-b7f9-48050f5b729f.jpg"
-        },
-        {
-          "id": "d6b517a6-0755-4a08-84f7-cef2c8aa14c3",
-          "title": "hdsvqd",
-          "image_filename": "91cd399e-b889-4855-81e0-a8e256fc0e23.jpg",
-          "image_url": "/uploads/91cd399e-b889-4855-81e0-a8e256fc0e23.jpg"
-        },
-        {
-          "id": "6a1f09c1-b6c0-44cc-957a-c741a579875b",
-          "title": "hdsvqd",
-          "image_filename": "3f05aa9c-bb7e-4a25-8c85-403abc65b669.jpg",
-          "image_url": "/uploads/3f05aa9c-bb7e-4a25-8c85-403abc65b669.jpg"
-        },
-        {
-          "id": "ba75a032-b264-4b13-a7a3-0d049c948f3f",
-          "title": "hdsvqd",
-          "image_filename": "e41ee97e-b156-45a2-9151-7097fca2946a.jpg",
-          "image_url": "/uploads/e41ee97e-b156-45a2-9151-7097fca2946a.jpg"
-        },
-        {
-          "id": "926f20f3-2cfd-4be1-8f62-9405667d840d",
-          "title": "hdsvqd",
-          "image_filename": "3217113a-e041-4f80-8c24-c6dbf64f50ef.jpg",
-          "image_url": "/uploads/3217113a-e041-4f80-8c24-c6dbf64f50ef.jpg"
-        },
-        {
-          "id": "4971c0a2-46b3-4f87-b9b9-a08c3b4d7b5b",
-          "title": "hdsvqd",
-          "image_filename": "aae79547-21cf-4082-b920-304a6e055f3b.jpg",
-          "image_url": "/uploads/aae79547-21cf-4082-b920-304a6e055f3b.jpg"
-        },
-        {
-          "id": "00bae4ae-efcd-4bdb-a36b-01d436437f7a",
-          "title": "hdsvqd",
-          "image_filename": "99cbc79b-bd43-4514-ad69-927067fbeb0f.jpg",
-          "image_url": "/uploads/99cbc79b-bd43-4514-ad69-927067fbeb0f.jpg"
-        },
-        {
-          "id": "92efda11-82b1-4e86-9b1e-ee1e8a847462",
-          "title": "hdsvqd",
-          "image_filename": "347c4592-5a8d-4bd4-b1d7-2c4b540e9b13.jpg",
-          "image_url": "/uploads/347c4592-5a8d-4bd4-b1d7-2c4b540e9b13.jpg"
-        },
-        {
-          "id": "6ee170f4-2279-49a5-8a10-d39b18f05994",
-          "title": "hdsvqd",
-          "image_filename": "714900b2-422c-42e8-9c69-ae4c30ab67f1.jpg",
-          "image_url": "/uploads/714900b2-422c-42e8-9c69-ae4c30ab67f1.jpg"
+          "id": "9302387b-071e-4b7b-9a8b-1335b866a110",
+          "title": "Petit selfie de test",
+          "image_filename": "8b48eb1e-aca8-4b0f-9d2b-2ec0a33925e5.jpg",
+          "image_url": "/uploads/8b48eb1e-aca8-4b0f-9d2b-2ec0a33925e5.jpg"
         }
-      ]
+      ],
+      "tags": [
+        {"tag": "test"}
+       ]
     }
   }
 }
