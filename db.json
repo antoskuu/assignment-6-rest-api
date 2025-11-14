@@ -22,8 +22,11 @@
         }
       ],
       "tags": [
-        {"tag": "test"}
-       ]
+        [
+          "test",
+          "example"
+        ]
+      ]
     },
     "efd31ff9-9b50-4950-a605-873afbaadc86": {
       "memories": [
@@ -94,8 +97,23 @@
         }
       ],
       "tags": [
-        {"tag": "test"}
-       ]
+        [
+          "jaune",
+          "#c4bc00"
+        ],
+        [
+          "test3",
+          "#ff0000"
+        ],
+        [
+          "test2",
+          "#00ff00"
+        ],
+        [
+          "test",
+          "#0000ff"
+        ]
+      ]
     }
   }
 }

@@ -20,61 +20,12 @@ def write_db(data):
     with open(DB_PATH, "w") as f:
         json.dump(data, f, indent=2)
 
-@app.get("/categories")
-def get_categories():
-    db = read_db()
-    return db.get("categories", [])
-
-
 @app.get("/images/{image_name}")
 def get_image(image_name: str):
     file_path = IMAGE_DIR / image_name
     if not file_path.exists():
         return {"error": "Image not found"}
     return FileResponse(file_path)
-
-
-@app.get("/cart")
-async def get_cart(user_id):
-    db = read_db()
-    users = db.get("users", {})
-    if user_id not in users:
-        users[user_id] = {"cart": []}
-        db["users"] = users
-        write_db(db)
-    print(users[user_id].get("cart", []))
-    return users[user_id].get("cart", [])
-
-
-@app.post("/cart")
-async def add_to_cart(id: int, title: str, user_id: str):
-    db = read_db()
-    users = db.get("users", {})
-    if user_id not in users:
-        users[user_id] = {"cart": []}
-        db["users"] = users
-        write_db(db)
-    cart = users[user_id]["cart"]
-    cart.append({"id": id, "title": title})
-    db["users"] = users
-
-    write_db(db)
-    return {"message": "Item added", "cart": cart}
-
-
-@app.delete("/cart")
-async def remove_from_cart(id: int, user_id: str):
-    db = read_db()
-    users = db.get("users", {})
-    if user_id not in users:
-        raise HTTPException(status_code=404, detail="User not found")
-    cart = users[user_id]["cart"]
-    cart = [item for item in cart if not (item["id"] == id)]
-    users[user_id]["cart"] = cart
-    db["users"] = users
-    write_db(db)
-    return {"message": "Item removed", "cart": cart}
-
 
 
 @app.post("/upload_memory")
@@ -133,39 +84,41 @@ async def get_user_tags(user_id: str):
     
     return users[user_id].get("tags", [])
 
-
 @app.post("/tags/{user_id}")
 async def upload_tags(user_id: str, tags: str = Form(...)):
     db = read_db()
     users = db.get("users", {})
-
+    print("Received tags:", tags)
+    
+    # ensure user structure
     if user_id not in users:
-        users[user_id] = {"cart": [], "memories": [], "tags": []}
+        users[user_id] = {"memories": [], "tags": []}
     elif "tags" not in users[user_id]:
         users[user_id]["tags"] = []
 
+    # Parse incoming tags from comma-separated string
     parsed_tags = []
-    try:
-        parsed = json.loads(tags)
-        if isinstance(parsed, list):
-            parsed_tags = [str(t).strip() for t in parsed if str(t).strip()]
-        else:
-            parsed_tags = [str(parsed).strip()]
-    except Exception:
-        parsed_tags = [t.strip() for t in tags.split(",") if t.strip()]
+    
+    # Split by comma and process pairs
+    items = [item.strip() for item in tags.split(',') if item.strip()]
+    
+    # Group items by pairs (name, color)
+    for i in range(0, len(items), 2):
+        if i + 1 < len(items):
+            tag_name = items[i]
+            tag_color = items[i + 1]
+            parsed_tags.append([tag_name, tag_color])
+    
+    print("Parsed tags:", parsed_tags)
 
-    # Insert new tags at the beginning, keep uniqueness preserving newest-first
-    existing = users[user_id]["tags"]
-    for t in reversed(parsed_tags):  # reversed so first in parsed_tags becomes first in list
-        if t not in existing:
-            existing.insert(0, t)
+    if not parsed_tags:
+        return {"message": "No tags provided", "tags": users[user_id]["tags"]}
 
-    users[user_id]["tags"] = existing
+    users[user_id]["tags"] = parsed_tags
     db["users"] = users
     write_db(db)
 
-    return {"message": "Tags updated", "tags": users[user_id]["tags"]}
-
+    return {"message": "Tags replaced", "tags": users[user_id]["tags"]}
 
 
 @app.get("/uploads/{filename}")
