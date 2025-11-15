@@ -33,13 +33,14 @@ async def upload_memory(
     user_id: str = Form(...),
     title: str = Form(...),
     file: UploadFile = File(...),
-    location : str = Form(...)
+    location : str = Form(...),
+    tags: str = Form(...)
 ):
     db= read_db()
     users = db.get("users", {})
     if user_id not in users:
         users[user_id] = {"memories": []}
-    
+    print("Received tags:", tags)
     
     
     file_extension = Path(file.filename).suffix
@@ -48,13 +49,25 @@ async def upload_memory(
     
     with open(file_path, "wb") as buffer:
         shutil.copyfileobj(file.file, buffer)
+    parsed_tags = []
+    items = [item.strip() for item in tags.split(',') if item.strip()]
     
+    # Group items by pairs (name, color)
+    for i in range(0, len(items), 2):
+        if i + 1 < len(items):
+            tag_name = items[i]
+            tag_color = items[i + 1]
+            parsed_tags.append([tag_name, tag_color])
+    
+    print("Parsed tags:", parsed_tags)
+
     memory = {
         "id": str(uuid.uuid4()),
         "title": title,
         "image_filename": unique_filename,
         "image_url": f"/uploads/{unique_filename}",
-        "location" : location
+        "location" : location,
+        "tags": parsed_tags
     }
 
     users[user_id]["memories"].insert(0, memory)

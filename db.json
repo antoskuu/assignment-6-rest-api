@@ -31,87 +31,56 @@
     "efd31ff9-9b50-4950-a605-873afbaadc86": {
       "memories": [
         {
-          "id": "8350c5a1-6c72-486c-bcda-cc04f1a3375a",
-          "title": "undefined",
-          "image_filename": "df687c8e-09ca-4868-9418-248baed6dd45.jpg",
-          "image_url": "/uploads/df687c8e-09ca-4868-9418-248baed6dd45.jpg",
-          "location": "[37.421998333333335,-122.084]"
+          "id": "63fe397b-88a7-4fb5-82f1-e511f9c49a0a",
+          "title": "coucou ihi",
+          "image_filename": "8d852ea3-44fe-4fba-8bad-84444cffc404.jpg",
+          "image_url": "/uploads/8d852ea3-44fe-4fba-8bad-84444cffc404.jpg",
+          "location": "[37.421998333333335,-122.084]",
+          "tags": [
+            [
+              "rouge",
+              "#b51a00"
+            ]
+          ]
         },
         {
-          "id": "1344cb4c-2dba-4f76-ace5-bad9e31811c3",
-          "title": "undefined",
-          "image_filename": "7968b102-5070-47c0-a3f2-0e87f8dfbc64.jpg",
-          "image_url": "/uploads/7968b102-5070-47c0-a3f2-0e87f8dfbc64.jpg",
-          "location": "\"{\\\"speed\\\":0,\\\"heading\\\":0,\\\"altitude\\\":5,\\\"accuracy\\\":5,\\\"longitude\\\":-122.084,\\\"latitude\\\":37.421998333333335}\""
-        },
-        {
-          "id": "65467876-69ff-4232-9484-cde17ca774be",
-          "title": "undefined",
-          "image_filename": "2bd957ca-28d7-4bea-bb38-88c114163d91.jpg",
-          "image_url": "/uploads/2bd957ca-28d7-4bea-bb38-88c114163d91.jpg",
-          "location": ""
-        },
-        {
-          "id": "c9eab2e8-c83a-45bf-87d9-e8ce223668c6",
-          "title": "undefined",
-          "image_filename": "95acc492-6ac8-420f-b62f-fdafaac219d9.jpg",
-          "image_url": "/uploads/95acc492-6ac8-420f-b62f-fdafaac219d9.jpg",
-          "location": "{\"speed\":0,\"heading\":0,\"altitude\":5,\"accuracy\":5,\"longitude\":-122.084,\"latitude\":37.421998333333335}"
-        },
-        {
-          "id": "ae6887e6-39e5-4f65-b6cc-e354dd7c5eb1",
-          "title": "undefined",
-          "image_filename": "3f7a41ad-a455-4b7f-846c-07c8eecd3f3d.jpg",
-          "image_url": "/uploads/3f7a41ad-a455-4b7f-846c-07c8eecd3f3d.jpg",
-          "location": ""
-        },
-        {
-          "id": "bdcea977-210a-4fc5-a4f1-b2f7fef0223c",
-          "title": "undefined",
-          "image_filename": "e0de7abd-1420-4f94-b191-743d162b78db.jpg",
-          "image_url": "/uploads/e0de7abd-1420-4f94-b191-743d162b78db.jpg"
-        },
-        {
-          "id": "bb445624-c847-46e9-be8e-f83b352a200c",
-          "title": "erko is ugly",
-          "image_filename": "b990a076-b58e-47f7-b075-25071dfa03dc.jpg",
-          "image_url": "/uploads/b990a076-b58e-47f7-b075-25071dfa03dc.jpg"
-        },
-        {
-          "id": "1858a9f2-c2d4-46a2-971c-1bccbecfa9cb",
-          "title": "erko is ugly",
-          "image_filename": "dcc2f8c0-8531-4ef6-bd09-644784a29211.jpg",
-          "image_url": "/uploads/dcc2f8c0-8531-4ef6-bd09-644784a29211.jpg"
-        },
-        {
-          "id": "bfe23f91-eb74-4a36-91a5-cd07fff03006",
-          "title": "Petit selfie de test",
-          "image_filename": "c1de0c22-1a29-421a-9032-79924f24e883.jpg",
-          "image_url": "/uploads/c1de0c22-1a29-421a-9032-79924f24e883.jpg"
-        },
-        {
-          "id": "9302387b-071e-4b7b-9a8b-1335b866a110",
-          "title": "Petit selfie de test",
-          "image_filename": "8b48eb1e-aca8-4b0f-9d2b-2ec0a33925e5.jpg",
-          "image_url": "/uploads/8b48eb1e-aca8-4b0f-9d2b-2ec0a33925e5.jpg"
+          "id": "dcd16cb8-7b91-4a13-97b6-e70a0550b2a6",
+          "title": "coucou",
+          "image_filename": "2e4e5163-f867-4bef-9d85-df948899071d.jpg",
+          "image_url": "/uploads/2e4e5163-f867-4bef-9d85-df948899071d.jpg",
+          "location": "[37.421998333333335,-122.084]",
+          "tags": [
+            [
+              "jaune",
+              "#f5ec00"
+            ],
+            [
+              "bleu",
+              "#0056d6"
+            ],
+            [
+              "rouge",
+              "#b51a00"
+            ]
+          ]
         }
       ],
       "tags": [
         [
+          "vert",
+          "#669d34"
+        ],
+        [
+          "rouge",
+          "#b51a00"
+        ],
+        [
+          "bleu",
+          "#0056d6"
+        ],
+        [
           "jaune",
-          "#c4bc00"
-        ],
-        [
-          "test3",
-          "#ff0000"
-        ],
-        [
-          "test2",
-          "#00ff00"
-        ],
-        [
-          "test",
-          "#0000ff"
+          "#f5ec00"
         ]
       ]
     }
