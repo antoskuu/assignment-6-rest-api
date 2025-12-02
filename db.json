@@ -1,82 +1,223 @@
 {
   "users": {
-    "123": {
-      "memories": [
-        {
-          "id": "8c8d715d-bb3c-49c9-b583-1f1a1035e0db",
-          "title": "heheh",
-          "image_filename": "4052ae45-6654-4dcb-a488-926b30b56eb5.png",
-          "image_url": "/uploads/4052ae45-6654-4dcb-a488-926b30b56eb5.png"
-        },
-        {
-          "id": "a776e74b-6a46-4b36-a1a4-ea242fc09158",
-          "title": "heheh",
-          "image_filename": "b836c306-31e5-46e8-86d0-3e3419983f23.png",
-          "image_url": "/uploads/b836c306-31e5-46e8-86d0-3e3419983f23.png"
-        },
-        {
-          "id": "10ff6313-bf8c-436a-a8fe-506d6152fea6",
-          "title": "heheh",
-          "image_filename": "b8fd14ec-c84c-4667-9a1e-585a92b0b26f.png",
-          "image_url": "/uploads/b8fd14ec-c84c-4667-9a1e-585a92b0b26f.png"
-        }
-      ],
-      "tags": [
-        [
-          "test",
-          "example"
-        ]
-      ]
-    },
     "efd31ff9-9b50-4950-a605-873afbaadc86": {
       "memories": [
         {
-          "id": "a39571c2-cbfe-4f78-af47-e720e55d6909",
-          "title": "date",
-          "image_filename": "7f9e7d04-5ffd-4339-8e06-d57d682aad91.jpg",
-          "image_url": "/uploads/7f9e7d04-5ffd-4339-8e06-d57d682aad91.jpg",
+          "id": "35659a40-ce47-4f56-ae5b-8684727e5ce7",
+          "title": "Demo",
+          "description": "Demo desc",
+          "image_filename": "33a09d05-ec4f-45eb-a86a-a2af25a578c0.webp",
+          "image_url": "/uploads/33a09d05-ec4f-45eb-a86a-a2af25a578c0.webp",
           "location": "[-122.084,37.421998333333335]",
           "tags": [
             [
-              "caracarc",
-              "#c4bc00"
+              "Test",
+              "#791a3d"
             ],
             [
-              "dqdsqdq",
-              "#a67b01"
+              "Greece",
+              "#0056d6"
             ],
             [
-              "dqfqdfsdgsfgsfgs",
+              "Flowers",
+              "#e63b7a"
+            ]
+          ],
+          "date": "2025-12-01T16:33:27.763Z"
+        },
+        {
+          "id": "8fb1fdf7-e54b-492d-a97c-939708c58a45",
+          "title": "qdsqsdsqdq",
+          "description": "dqsdqdq",
+          "image_filename": "8360e693-ff9e-4a26-bd1e-fc030b41e2f7.jpg",
+          "image_url": "/uploads/8360e693-ff9e-4a26-bd1e-fc030b41e2f7.jpg",
+          "location": "[-122.084,37.421998333333335]",
+          "tags": [
+            [
+              "Landscape",
+              "#76bb40"
+            ],
+            [
+              "Mountain",
+              "#583300"
+            ]
+          ],
+          "date": "2025-12-01T16:32:18.143Z"
+        },
+        {
+          "id": "e144f853-9428-4516-a3c6-42caaac058a1",
+          "title": "Demo ",
+          "description": "Demo description",
+          "image_filename": "b86fd5c3-4527-42d3-bb3e-ff231e7959a0.jpg",
+          "image_url": "/uploads/b86fd5c3-4527-42d3-bb3e-ff231e7959a0.jpg",
+          "location": "[-122.084,37.421998333333335]",
+          "tags": [
+            [
+              "Lake",
+              "#74a7ff"
+            ],
+            [
+              "Test",
+              "#791a3d"
+            ]
+          ],
+          "date": "2025-12-01T16:29:50.853Z"
+        },
+        {
+          "id": "3bc161e7-1643-46a3-ba8a-5065f4e42845",
+          "title": "Demo",
+          "description": "Demo",
+          "image_filename": "a221a29b-eeab-499a-a19f-1189536125a6.jpg",
+          "image_url": "/uploads/a221a29b-eeab-499a-a19f-1189536125a6.jpg",
+          "location": "[-122.084,37.421998333333335]",
+          "tags": [
+            [
+              "Lake",
+              "#74a7ff"
+            ]
+          ],
+          "date": "2025-11-30T17:11:43.937Z"
+        },
+        {
+          "id": "431e73aa-4f36-492e-9ac5-d7c841388430",
+          "title": "Test demo",
+          "description": "Test description demo",
+          "image_filename": "54384e22-f009-4486-91ea-20eba3a2b62f.jpg",
+          "image_url": "/uploads/54384e22-f009-4486-91ea-20eba3a2b62f.jpg",
+          "location": "[-112.084,37.421998333333335]",
+          "tags": [
+            [
+              "Greece",
+              "#0056d6"
+            ],
+            [
+              "Landscape",
+              "#76bb40"
+            ],
+            [
+              "Flowers",
+              "#e63b7a"
+            ]
+          ],
+          "date": "2025-11-30T15:33:10.676Z"
+        },
+        {
+          "id": "1e7490d6-cb3d-4561-9b34-cb71eac3e1bf",
+          "title": "Lake",
+          "description": "Unknown lake",
+          "image_filename": "5bdea2d1-f9fb-4ef1-89ed-96bad63df1b3.jpg",
+          "image_url": "/uploads/5bdea2d1-f9fb-4ef1-89ed-96bad63df1b3.jpg",
+          "location": "[-122.084,36.421998333333335]",
+          "tags": [
+            [
+              "Lake",
+              "#74a7ff"
+            ],
+            [
+              "Mountain",
+              "#583300"
+            ],
+            [
+              "Landscape",
               "#76bb40"
             ]
           ],
-          "date": "2025-11-18T20:22:05.660Z"
+          "date": "2025-11-30T15:04:34.934Z"
+        },
+        {
+          "id": "678805df-2ca5-4c54-968c-04824989a702",
+          "title": "Norwegian lake",
+          "description": "A nice landscape picture :)",
+          "image_filename": "c89c92a0-3679-4a84-9a4c-aeb0668999ac.jpg",
+          "image_url": "/uploads/c89c92a0-3679-4a84-9a4c-aeb0668999ac.jpg",
+          "location": "[-122.084,37.421998333333335]",
+          "tags": [
+            [
+              "Lake",
+              "#74a7ff"
+            ],
+            [
+              "Landscape",
+              "#76bb40"
+            ],
+            [
+              "Mountain",
+              "#583300"
+            ],
+            [
+              "Norway",
+              "#e22400"
+            ]
+          ],
+          "date": "2025-11-30T15:04:00.653Z"
+        },
+        {
+          "id": "034d033a-12b1-4413-8d17-81e71bb294a9",
+          "title": "Nice flowers",
+          "description": "Picture from Greece",
+          "image_filename": "5c9f24c5-4b1d-4d7f-851c-142c2d8921a2.jpg",
+          "image_url": "/uploads/5c9f24c5-4b1d-4d7f-851c-142c2d8921a2.jpg",
+          "location": "[-122.084,37.421998333333335]",
+          "tags": [
+            [
+              "Flowers",
+              "#e63b7a"
+            ],
+            [
+              "Greece",
+              "#0056d6"
+            ]
+          ],
+          "date": "2025-11-30T15:03:33.554Z"
+        },
+        {
+          "id": "0790264a-ff6b-4da6-a76b-71f438b476a0",
+          "title": "Mountain",
+          "description": "Coucou",
+          "image_filename": "c3b40de6-5fe6-44d8-825d-d7fd0fb12245.webp",
+          "image_url": "/uploads/c3b40de6-5fe6-44d8-825d-d7fd0fb12245.webp",
+          "location": "[-120.084,37.421998333333335]",
+          "tags": [
+            [
+              "Montain",
+              "#669d34"
+            ],
+            [
+              "Landscape",
+              "#e63b7a"
+            ],
+            [
+              "test",
+              "#a96800"
+            ]
+          ],
+          "date": "2025-11-28T13:36:18.231Z"
         }
       ],
       "tags": [
         [
-          "dqfqdfsdgsfgsfgs",
+          "Light pink",
+          "#f4a4c0"
+        ],
+        [
+          "Test",
+          "#791a3d"
+        ],
+        [
+          "Greece",
+          "#0056d6"
+        ],
+        [
+          "Beach",
+          "#fed977"
+        ],
+        [
+          "Lake",
+          "#74a7ff"
+        ],
+        [
+          "Landscape",
           "#76bb40"
-        ],
-        [
-          "dqdsqdq",
-          "#a67b01"
-        ],
-        [
-          "caracarc",
-          "#c4bc00"
-        ],
-        [
-          "test",
-          "#831100"
-        ],
-        [
-          "coucou",
-          "#ff4015"
-        ],
-        [
-          "test",
-          "#d38301"
         ]
       ]
     }

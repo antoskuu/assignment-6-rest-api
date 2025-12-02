@@ -54,7 +54,6 @@ async def upload_memory(
     parsed_tags = []
     items = [item.strip() for item in tags.split(',') if item.strip()]
     
-    # Group items by pairs (name, color)
     for i in range(0, len(items), 2):
         if i + 1 < len(items):
             tag_name = items[i]
@@ -131,19 +130,15 @@ async def upload_tags(user_id: str, tags: str = Form(...)):
     users = db.get("users", {})
     print("Received tags:", tags)
     
-    # ensure user structure
     if user_id not in users:
         users[user_id] = {"memories": [], "tags": []}
     elif "tags" not in users[user_id]:
         users[user_id]["tags"] = []
 
-    # Parse incoming tags from comma-separated string
     parsed_tags = []
     
-    # Split by comma and process pairs
     items = [item.strip() for item in tags.split(',') if item.strip()]
     
-    # Group items by pairs (name, color)
     for i in range(0, len(items), 2):
         if i + 1 < len(items):
             tag_name = items[i]
